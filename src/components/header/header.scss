@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    align-items: center;
+  }
+  .header__logo {
+    display: flex;
+    flex-wrap: wrap;
+    img {
+      width: 80px;
+    }
+    h1 {
+      text-transform: uppercase;
+    }
+  }
+  .header__cart {
+    margin: 0 0 0 auto;
+    .button-cart {
+      display: flex;
+      align-items: center;
+      background: #fc531c;
+      height: 50px;
+      color: #fff;
+      svg {
+        width: 20px;
+        height: 20px;
+        fill: #fff;
+        margin: 0 5px 0 0;
+      }
+      .dilimiter {
+        width: 1px;
+        height: 25px;
+        margin: 0 10px;
+        background: rgba(255, 255, 255, 0.5);
+      }
+    }
+  }

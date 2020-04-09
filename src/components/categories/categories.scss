@@ -1,0 +1,19 @@
+.categories {
+    margin: 40px 0;
+    ul {
+      margin: 20px 0 0 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    li {
+      padding: 20px 30px;
+      margin: 0 10px;
+      border-radius: 25px;
+      background: #f8f6f9;
+      cursor: pointer;
+      &.active {
+        color: #fff;
+        background: #242424;
+      }
+    }
+  }

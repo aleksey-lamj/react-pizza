@@ -1,0 +1,25 @@
+.add-cart {
+    border: 1px solid #fc531c;
+    padding: 10px;
+    color: #fc531c;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    .add {
+        &::before {
+            content: '+';
+            margin: 0 3px 0 0;
+        }
+    }
+    .count-item {
+        margin: 0 0 0 5px;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        position: relative;
+        color: #fff;
+        background: #fc531c;
+        line-height: 25px;
+    }
+}

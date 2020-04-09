@@ -1,0 +1,30 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background: #ffdc82;
+  font-family: "Open sans";
+}
+button {
+  cursor: pointer;
+}
+.wrapper {
+  margin: 50px 200px;
+  padding: 20px 40px;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.button {
+  padding: 10px 20px;
+  background: transparent;
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+  outline: none;
+}

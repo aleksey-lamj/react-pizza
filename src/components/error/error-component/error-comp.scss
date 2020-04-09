@@ -1,0 +1,18 @@
+.error {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    span {
+        color: #fc531c;
+        display: block;
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+        &:nth-child(1) {
+            color: #000;
+            font-size: 65px;
+        }
+    }
+    
+}
