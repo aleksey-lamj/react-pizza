@@ -2,10 +2,10 @@
 
 Возможность добавления пиццы в корзину, фильтрация по пиццам. Цена зависит от размера и теста. В корзине показана общая стоимать заказа, добавление и удаление пиццы.
 
-[Посмотреть](https://yandex.ru)
+[Посмотреть](https://aleksey-kaa.github.io/react-pizza/)
 ## Быстрый старт 
 
-`git clone https://yandex.ru`
+`git clone https://github.com/aleksey-kaa/react-pizza.git`
 
 `npm install`
 
